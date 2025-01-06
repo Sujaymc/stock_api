@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>spark</groupId> <!--    change it your directory name -->
-  <artifactId>energy_api</artifactId> <!--    change it to your main project name-->
+  <artifactId>stock_api</artifactId> <!--    change it to your main project name-->
   <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -80,7 +80,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>spark.read_energy_api</mainClass>  <!--    change it to your directory.classname name-->
+              <mainClass>spark.stock_read_api</mainClass>  <!--    change it to your directory.classname name-->
             </manifest>
           </archive>
         </configuration>
