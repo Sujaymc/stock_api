@@ -38,8 +38,8 @@ object stock_read_api {
       stockDF.show(5, truncate = false)
 
       // Kafka server and topic name assignment
-      val kafkaServer: String = "ip-172-31-8-235.eu-west-2.compute.internal:9092"
-      val topicSampleName: String = "sujay_topic1" // Your Kafka topic name
+//      val kafkaServer: String = "ip-172-31-8-235.eu-west-2.compute.internal:9092"
+//      val topicSampleName: String = "sujay_topic1" // Your Kafka topic name
 
       // Write data to Kafka
 //      stockDF.selectExpr("CAST(symbol AS STRING) AS key", "to_json(struct(*)) AS value")
